@@ -1,0 +1,15 @@
+apply from: "gradle/vertx.gradle"
+
+dependencies {
+//의존성을 관리하는곳
+  compile "io.vertx:lang-scala:$scalaLangModVersion"
+  compile "io.vertx:mod-redis:1.1.2"
+
+
+}
+
+test {
+}
+
+def configurePom(def pom) {
+}

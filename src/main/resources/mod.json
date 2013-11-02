@@ -1,0 +1,5 @@
+{
+    "main":"scala:MainVerticle",
+    "system": true,
+    "resident": true
+}
